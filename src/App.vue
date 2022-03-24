@@ -6,6 +6,8 @@
 </template>
 
 <script>
+/* eslint-disable */
+
 import HeaderDisk from './components/HeaderDisk.vue'
 import MainDisk from './components/MainDisk.vue'
 
@@ -19,5 +21,5 @@ export default {
 </script>
 
 <style lang="scss">
-@import './assets/styles/style.scss';
+@import "~bootstrap/scss/bootstrap";
 </style>
